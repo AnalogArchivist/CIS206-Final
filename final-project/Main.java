@@ -83,7 +83,7 @@ public class Main {
         System.out.printf("%-28s \n",minMountain.getName());
 
         System.out.printf("\nThe elevation of the shortest mountain is: ");
-        System.out.printf("%-20s",decimalFormat.format(minMountain.getElevation())+" ft");
+        System.out.printf("%-20s\n",decimalFormat.format(minMountain.getElevation())+" ft");
         }
 
         //This function finds the shortest mountain in the arraylist
